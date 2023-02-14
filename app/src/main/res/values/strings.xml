@@ -1,3 +1,23 @@
 <resources>
+    <!-- App -->
     <string name="app_name">TV Shows</string>
+    <string name="app_separator">|</string>
+    <!-- Menu -->
+    <string name="menu_list_search">Buscar…</string>
+    <!-- List -->
+    <string name="list_screen_title">Lista de programas</string>
+    <string name="list_row_image">Poster</string>
+    <string name="list_row_title">Title</string>
+    <string name="list_row_network">Network</string>
+    <string name="list_row_airdate">AirDate</string>
+    <string name="list_row_airtime">AirTime</string>
+    <string name="list_row_site">Visitar Sitio</string>
+    <!-- Detail -->
+    <string name="detail_screen_title">Detalle del programa</string>
+    <string name="detail_rating_title">rating</string>
+    <string name="detail_summary_title">Summary</string>
+    <string name="detail_genres_title">Géneros:</string>
+    <string name="detail_genres_time">Horario:</string>
+    <string name="detail_genres_talent">Talentos:</string>
+    <string name="detail_cast_title">Cast</string>
 </resources>

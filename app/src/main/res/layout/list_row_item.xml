@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_row_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/list_row_image"
+        android:layout_width="@dimen/poster_width"
+        android:layout_height="@dimen/poster_height"
+        android:layout_marginStart="@dimen/space_2x"
+        android:layout_marginTop="@dimen/space_2x"
+        android:layout_marginBottom="@dimen/space_2x"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/list_row_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/list_row_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_2x"
+        android:text="@string/list_row_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintStart_toEndOf="@+id/list_row_image"
+        app:layout_constraintTop_toTopOf="@+id/list_row_image" />
+
+    <TextView
+        android:id="@+id/list_row_network_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_1x"
+        android:text="@string/list_row_network"
+        app:layout_constraintStart_toStartOf="@+id/list_row_name"
+        app:layout_constraintTop_toBottomOf="@+id/list_row_name" />
+
+    <TextView
+        android:id="@+id/list_row_airdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_2x"
+        android:text="@string/list_row_airdate"
+        app:layout_constraintStart_toStartOf="@+id/list_row_network_name"
+        app:layout_constraintTop_toBottomOf="@+id/list_row_network_name" />
+
+    <TextView
+        android:id="@+id/list_row_date_separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_1x"
+        android:text="@string/app_separator"
+        app:layout_constraintStart_toEndOf="@+id/list_row_airdate"
+        app:layout_constraintTop_toTopOf="@+id/list_row_airdate"/>
+
+    <TextView
+        android:id="@+id/list_row_airtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_1x"
+        android:text="@string/list_row_airtime"
+        app:layout_constraintStart_toEndOf="@+id/list_row_date_separator"
+        app:layout_constraintTop_toTopOf="@+id/list_row_date_separator" />
+
+    <Button
+        android:id="@+id/list_row_site"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_2x"
+        android:text="@string/list_row_site"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@+id/list_row_airdate"
+        app:layout_constraintTop_toBottomOf="@+id/list_row_airdate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
