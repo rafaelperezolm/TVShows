@@ -13,13 +13,13 @@ The objective of this proyect consists of develop an application that shows a li
 
 ## Key Features  
 
-• You must provide the apk and the link of the project repository to review the code.
-• Use Kotlin language
-• Colors, styles and typography are at the discretion of the developer.
-• Third party libraries can be used
-• Use of good practices (design and architecture patterns)
-• Code documentation
-• The application will be reviewed on mobile (portrait) and tablet (portrait and
+- You must provide the apk and the link of the project repository to review the code.
+- Use Kotlin language
+- Colors, styles and typography are at the discretion of the developer.
+- Third party libraries can be used
+- Use of good practices (design and architecture patterns)
+- Code documentation
+- The application will be reviewed on mobile (portrait) and tablet (portrait and
 scenery)
   
 ## Contact Data    
